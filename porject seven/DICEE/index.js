@@ -1,10 +1,3 @@
-//classList 
-//classList.add 
-//classList.remove  
-//classList.toggle 
-//classList.contans  
-//classList.items
-
 let myObject;
 try { 
     let myRequest =  new XMLHttpRequest();  
@@ -30,15 +23,6 @@ setTimeout(function(){
    } 
 
 }, 1000)
-
-
-// attribute 
-//setAttribut  
-//getAttibute  
-//attribiutes 
-// reomoveAttibuite  
-//hasAttribute 
-//hasAttributs  
 
 
 window.onload = _ => { 
