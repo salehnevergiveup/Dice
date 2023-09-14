@@ -64,46 +64,8 @@ let messageButton  = document.querySelector(".winner button");
 messageButton.onclick = _ =>  document.querySelector(".winner").style.visibility = "hidden";
 
 
-///Selecting element  
-//document.getElementById() 
-//document.getEelementsByClassName() 
-//documnet.getElementByTagName() 
-//document.querySelectorAll() 
-//document.querySelector() 
-//documnet.link() 
-//documnet.form 
-//document.title 
-//document.body 
 
-
-//classlkist 
-//element.classList.add() 
-//element.classList.remove()
-//elemetn.classList.containts() 
-//element.classList.items()
-//element.classList.toggel() 
-
-
-//Attibute  
-//elemetn.getAttreibute 
-//element.setAttribute()
-//elemet.attributes() 
-//element.hasAttribute()
-//element.hasAttribuites() ]
-//element.setAttributeNodes() 
-
-//innerHtml  
-//TextContent
-
-//style  
-//style.peopertyName
-// style.reomveProperty()
-//style.setProperty() 
-//targe the  style sheet 
-//documnet/styleSheets[index of the stylesheet].cssRules[index of the selector in the style file] 
 let style = document.styleSheets[0]; 
-
-
 
 
 let before  = style.cssRules[style.cssRules.length-2]; 
